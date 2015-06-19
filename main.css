@@ -1,0 +1,22 @@
+body{
+	margin-left: 2em;
+}
+
+.jumbotron{
+	margin-left: -2em;
+	background-color: #B88B66;
+}
+
+.jumbotron h1{
+	font-family: 'Lato';
+	color: rgb(239, 235, 194);
+	text-shadow: 5px 5px 5px rgb(79, 229, 79);
+}
+
+p{
+	color: purple;
+}
+
+#contacts{
+	border: 1px solid black;
+}
