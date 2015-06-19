@@ -4,5 +4,6 @@ $('#post-box').focus(function(){
 
 $('#post-it').click(function(){
 	var usr_post = $('#post-box').val();
-	$('#post-area').append('<p>' + usr_post + '</p>')
+	var usr = $('#user').val();
+	$('#post-area').append('<p>' + usr + ": " + usr_post + '</p>')
 });

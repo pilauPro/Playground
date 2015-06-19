@@ -8,7 +8,7 @@
 	<title>Matt's Sandbox</title>
 </head>
 <body>
-	<div class="jumbotron">
+	<div class="jumbotron" id="jumbo">
 		<h1>Matt's Sandbox</h1>
 	</div>
 	
@@ -23,7 +23,7 @@
 	I can also force line breaks<br>
 	with a br tag. These tags don't need to be closed.<br>
 
-	<ul>
+	<ul id="movies">
 		<h4>My unordered list of fav movies</h4>
 		<li>Rudy</li>
 		<li>The Karate Kid</li>
@@ -35,7 +35,7 @@
 		<h4>My ordered list of fav destinations</h4>
 		<li id="sfo">San Francisco</li>
 		<li>Las Vegas</li>
-			<ul>
+			<ul id ="hangs">
 				<strong>Fav Vegas hangouts, no order:</strong>
 				<li>Todd English PUB</li>
 				<li>Urban Tavern</li>
@@ -67,15 +67,35 @@
 		</tr>
 	</table>
 
-	<textarea rows="5" cols="20" id="post-box">Enter your post here</textarea><br>
-	<button id="post-it">Post</button><br>
+	<!-- Select / option for a dropdown list. Option value attribute
+		 can be used to supply a different value than what is displayed -->
+	<div class="row">
+		<div class="col-md-2">
+			<select id="user">
+				<option value="His Lordship">Matt</option>
+				<option value="Pops">Dad</option>
+				<option value="The Queen">Heather</option>
+			</select>	
+		</div>
+	</div>
 
+	<div class="row">
+		<div class="col-md-2">
+			<textarea rows="5" cols="20" id="post-box">Enter your post here</textarea>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-2">
+			<button id="post-it">Post</button>
+		</div>
+	</div>
 	<div class="row">
 		<div class="col-md-4" id="post-area"></div>
 	</div>
 
 	<a href="http://www.lasvegas.com">
-		<img src="http://thejointblog.com/wp-content/uploads/2014/11/vegas2.jpg" height="400em" id="las" alt="World Famous Las Vegas Sign">
+		<img src="http://thejointblog.com/wp-content/uploads/2014/11/vegas2.jpg" 
+		height="400em" id="las" alt="World Famous Las Vegas Sign">
 	</a>
 
 	<!-- Load jquery, jqueryui, and custom javascript -->
