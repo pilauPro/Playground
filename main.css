@@ -83,3 +83,7 @@ p{
 #box h4, h5 {
 	line-height: .2em;
 }
+
+td{
+	border: 1px solid black;
+}
