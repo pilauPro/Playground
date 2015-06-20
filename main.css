@@ -59,3 +59,27 @@ p{
 	font-weight: bold;
 	background-color: purple;
 }
+
+/* Margin is the space outside the box. Padding is the space between the edges
+   of the box and the elements inside it. */
+
+#box{
+	border-color: #9966FF;
+	border-bottom-width: 4px;
+	border-bottom-style: groove;
+	border-right-style: groove;
+	border-right-width: 2px;
+	border-right-color: black;
+	border-radius: 10%;
+	margin-top: 5em;
+	margin-bottom: 5em;
+	padding-top: 4em;
+	width: 10em;
+	height: 10em;
+	background-color: #FFADD6;
+	text-align: center;
+}
+
+#box h4, h5 {
+	line-height: .2em;
+}
