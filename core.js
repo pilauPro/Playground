@@ -7,3 +7,7 @@ $('#post-it').click(function(){
 	var usr = $('#user').val();
 	$('#post-area').append('<p>' + usr + ": " + usr_post + '</p>')
 });
+
+$('#dropdownMenu1').click(function(){
+	$('.dropdown-menu').toggle();
+});
