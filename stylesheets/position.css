@@ -1,0 +1,28 @@
+ul, li, .btnLogIn{
+	display: inline-block;
+	font-family: "Arial";
+}
+
+.header{
+	height: 40px;
+	text-align: right;
+}
+
+li{
+	position: relative;
+	padding-right: 10px;
+	bottom: 8px;
+}
+
+.btnLogIn{
+	width: 100px;
+	height: 40px;
+	background: #66CCFF;
+
+}
+h3{
+	position: relative;
+		color: #black;
+		right: 20px;
+		bottom: 8px;
+}
