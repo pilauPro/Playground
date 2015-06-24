@@ -26,3 +26,62 @@ h3{
 		right: 20px;
 		bottom: 8px;
 }
+.circle-container{
+	position: relative;
+	top: 100px;
+	height: 100px;
+
+}
+
+.left, .right, .middle{
+	display: inline-block;
+	position: absolute;
+	width: 290px;
+	height: 100px;
+}
+
+.right{
+	right: 0;
+}
+
+.middle{
+	left: 442px;
+}
+
+#far-right{
+	background: blue;
+}
+
+#near-right{
+	background: lightblue;
+}
+
+#far-mid{
+	background: red;
+}
+
+#near-mid{
+	background: 
+	url("http://localhost/~Matto/Playground/images/Heather_graffiti.jpg") no-repeat;
+	background-size: 275px;
+	background-position: -18px -10px;
+}
+
+#far-left{
+	background: green;
+}
+
+#near-left{
+	background: lightgoldenrodyellow;
+}
+
+.circle{
+	display: inline-block;
+	border-radius: 100%;
+	width: 100px;
+	height: 100px;
+	top: 50px;
+	margin-left: 20px;
+	margin-right: 20px;
+
+}
