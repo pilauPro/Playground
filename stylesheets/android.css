@@ -95,3 +95,22 @@ div div{
 .l-leg{left:45px;}
 
 .r-leg{right: 45px;}
+
+
+h3{
+	position: absolute;
+	top: -10px;
+	left: 5px;
+}
+
+.js-btn{
+	font-family: 'Arial';
+	position: fixed;
+	height: 40px;
+	width: 100px;
+	background-color: lightblue;
+	color: white;
+}
+.js-btn:hover{
+	border: 2px solid lightblue;
+}
