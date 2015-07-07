@@ -2,27 +2,78 @@
 	font-family: 'Arial';
 }
 
+
 ul.movies{
 	list-style-type: none;
 }
 
+@keyframes fill{
+	0% { 
+		background-color: white;
+	}
+	100% {
+		background-color: red;
+		color: white;
+		font-weight: bold;
+	}
+}
+@keyframes unfill{
+	0% { 
+		background-color: red;
+	}
+	100% {
+		background-color: white;
+		color: black;
+		font-weight: normal;
+	}
+}
+
+
 .movie-wrap{
+	position: relative;
 	display: inline-block;
 	width: 200px;
 	text-align: center;
-	border: 1px solid black;
+	border: 1px dashed black;
+}
+
+button{
+	border: none;
+}
+
+button.filter{
+	position: relative;
+	width: 60px;
+	margin-left: 40px;
 }
 
 button.get-price{
 	position: relative;
 	top: -5px;
-	border: none;
 	background-color: #33CC99;
 }
 
 button.show-price{
 	position: relative;
 	top: -5px;
-	border: none;
 	background-color: #33CCFF;
+}
+
+.highlighted{	
+	animation-name: slide;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: forwards; /* Chrome, Safari, Opera */
+    animation-fill-mode: forwards;
+}
+.coloring{
+	animation-name: fill;
+	animation-duration: 2s;
+	-webkit-animation-fill-mode: forwards; /* Chrome, Safari, Opera */
+    animation-fill-mode: forwards;
+}
+.uncoloring{
+	animation-name: unfill;
+	animation-duration: 2s;
+	-webkit-animation-fill-mode: forwards; /* Chrome, Safari, Opera */
+    animation-fill-mode: forwards;
 }
