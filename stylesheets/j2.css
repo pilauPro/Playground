@@ -1,0 +1,46 @@
+*{
+	font-family: 'Arial';
+}
+.stock-wrapper{
+	display: inline-block;
+	position: relative;
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+	margin: 0 10px;
+}
+.stock-title{
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+	margin: 0;
+	text-align: center;
+	border-bottom: 1px solid black;
+	padding-top: 10px;
+	background-color: beige;
+}
+.stock-info{
+	border: none;
+	height: 40px;
+	width: 100px;
+	background-color: rgb(148, 209, 231);
+	font-size: medium;
+	font-weight: bold;
+	color: rgb(234, 112, 38);
+}
+.stock-info:focus{
+	outline: none;
+}
+@keyframes bumpDown{
+	0% {top: 0px;}
+	100% {top: 20px;}
+}
+.selected{
+	animation: bumpDown;
+	animation-duration: .5s;
+	animation-fill-mode: forwards;
+}
+.show-info{
+	background-color: black;
+	color: white;
+}
